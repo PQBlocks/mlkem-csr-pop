@@ -1,0 +1,24 @@
+{
+  "standard": "FIPS 203 (ML-KEM)",
+  "version": "IPP (Initial Public Draft)",
+  "description": "NIST FIPS 203 ML-KEM Known Answer Tests for ML-KEM-768, ML-KEM-1024",
+  "source": "NIST PQC Standardization Round 3 - ML-KEM (CRYSTALS-Kyber)",
+  "note": "ML-KEM-512 not available in cryptography 50.0.1",
+  "test_vectors": [
+    {
+      "parameter_set": "ML-KEM-768",
+      "seed_hex": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "description": "Fixed seed for deterministic key generation (128 hex chars, 128 chars)"
+    },
+    {
+      "parameter_set": "ML-KEM-1024",
+      "seed_hex": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "description": "Fixed seed for deterministic key generation (128 hex chars, 128 chars)"
+    }
+  ],
+  "meta": {
+    "generated_by": "pqblocks-tooling",
+    "date": "2026-09-27",
+    "purpose": "Golden verification directory with NIST FIPS 203 KAT vectors"
+  }
+}

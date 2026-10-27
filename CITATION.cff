@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "pqblocks-csr-pop"
+version: "0.1.0"
+license: Apache-2.0
+repository-code: "https://github.com/PQBlocks/mlkem-csr-pop"
+authors:
+  - name: "The PQBlocks Authors"
+keywords:
+  - post-quantum
+  - pqc
+  - ml-kem
+  - csr
+  - pkcs10
+  - rfc-9883
+  - proof-of-possession
+abstract: "ML-KEM (FIPS 203) PKCS#10 Certificate Signing Request (CSR) generator with RFC 9883 Proof of Possession (PoP)."
